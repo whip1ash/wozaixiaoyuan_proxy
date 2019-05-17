@@ -1,0 +1,16 @@
+{
+  "name": "wozaixiaoyuan_proxy",
+  "version": "1.0.0",
+  "description": "A proxy for wozaixiaoyuan,allows you to check in anywhere on campus",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy.js"
+  },
+  "author": "whip1ash",
+  "license": "ISC",
+  "dependencies": {
+    "anyproxy": "^4.1.0",
+    "sync-request": "^6.1.0"
+  }
+}
