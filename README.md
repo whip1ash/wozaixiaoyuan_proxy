@@ -64,15 +64,21 @@ vpn设置http代理，模式使用代理，也就是全局模式。
 ![](media/15580714700282.jpg)
 
 ### 模块安装
+```
 git clone https://github.com/whip1ash/wozaixiaoyuan_proxy.git
 cd wozaixiaoyuan_proxy
 npm install 
 npm start
+```
 
 长期后台运行 
 使用pm2对进程进行管理
+
+```
 npm install pm2 -g
 pm2 start proxy.js
+```
+
 更多操作请查看[官网](http://pm2.keymetrics.io/)
 
 ### 使用
